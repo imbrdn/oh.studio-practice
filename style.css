@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #e8e5e480;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    height: 35px;
+    width: 210px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-nav{
+    display: flex;
+    gap: 1rem;
+}
+.main-nav:hover{
+    cursor: pointer;
+}
+.main-nav a{
+    font-size: 10px;
+    color: #000000;
+    
+}
+.btn-active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 28px;
+    width: 55px;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+.btn-inactive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 28px;
+    width: 55px;
+    border-radius: 2rem;
+    color: #e8e5e480;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-tag{
+    padding-top: 100px;
+    height: 603px;
+    max-width: 70ch;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main-title{
+    font-size: 48px;
+    font-weight: 600;
+}
+.branding-tags{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.branding-tags p{
+    font-size: 10px;
+}
+.btn-like{
+    background-color: #e8e5e480;
+    border-radius: 2rem;
+    padding: .25rem .5rem;
+}
+.image-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image-content {
+    margin: 1rem;
+}
+.image-content img{
+    border-radius: 1rem;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+.image-content img:hover{
+    filter: blur(.125rem);
+    cursor: pointer;
+    background-color: hsla(125, 28%, 15%, .2);
+}
+.get-in-touch{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+}
+.secondary-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.inverted{
+    color: #7f7f7f;
+}
+.inverted:hover{
+    cursor: pointer;
+    color: #acacac;
+}
