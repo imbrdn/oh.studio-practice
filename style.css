@@ -107,6 +107,7 @@ header{
     width: 500px;
     height: 350px;
     object-fit: cover;
+    transition: .2s ease;
 }
 .image-content img:hover{
     filter: blur(.125rem);
